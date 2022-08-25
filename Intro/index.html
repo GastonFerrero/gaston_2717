@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de prueba</title>
+  </head>
+  <body>
+    <h1>Título principal</h1>
+    <h2>Título secundario/subtítulo</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, vel saepe
+      ducimus rem vero obcaecati mollitia impedit ea dolores blanditiis corrupti
+      voluptatem accusantium sapiente maiores soluta cum expedita ipsum
+      adipisci!
+    </p>
+
+    <h2>Lista ordenada</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <h2>Lista desordenada</h2>
+
+    <ol>
+      <li>Items</li>
+      <li>Items</li>
+      <li>Items</li>
+      <li>Items</li>
+    </ol>
+
+    <h2>Lista anidada</h2>
+
+    <ol>
+      <li>
+        Elemento de lista anidada con lista dentro
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
+      </li>
+      <li>
+        Otro elemento de la lista anidada con lista dentro
+        <ul>
+          <li>
+            Lista de adentro de la lista
+            <ol>
+              <li>Item</li>
+              <li>Item</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>Tablas</h2>
+
+    <table>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sábado</th>
+        <th>Domingo</th>
+      </tr>
+      <tr>
+        <td>Cursada 1</td>
+        <td>Cursada 1</td>
+        <td>Cursada 2</td>
+        <td>Cursada 2</td>
+        <td>Cursada 3</td>
+        <td>Deporte</td>
+        <td>Descanso</td>
+      </tr>
+
+      <tr>
+        <td>8hs</td>
+        <td>8hs</td>
+        <td>10hs</td>
+        <td>10hs</td>
+        <td>9hs</td>
+        <td>15hs</td>
+        <td>Todo el dia</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Ejemplo de formulario</h2>
+
+    <label for="nombre"> Nombre:</label>
+    <input
+      type="text"
+      id="nombre"
+      placeholder="Ingrese su nombre"
+      required
+    /><br /><br />
+
+    <label for="apellido"> Apellido:</label>
+    <input
+      type="text"
+      id="apellido"
+      placeholder="Ingrese su apellido"
+      required
+    /><br /><br />
+
+    <label for="dni">DNI:</label>
+    <input
+      type="text"
+      id="DNI"
+      placeholder="Ingrese su DNI"
+      required
+    /><br /><br />
+
+    <!-- DUDA REQUIRED -->
+    <!-- DUDA REQUIRED -->
+    <!-- DUDA REQUIRED -->
+
+    Sexo:
+    <label for="femenino">Femenino</label>
+    <input type="radio" name="sexo" id="femenino" />
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="sexo" id="masculino" />
+    <br /><br />
+
+    <!-- DUDA REQUIRED -->
+    <!-- DUDA REQUIRED -->
+    <!-- DUDA REQUIRED -->
+
+    <label for="edad">Edad:</label>
+    <input
+      type="number"
+      id="edad"
+      placeholder="Ingrese su edad"
+      required
+    /><br /><br />
+
+    <label for="correo">Correo electrónico:</label>
+    <input
+      type="email"
+      id="correo"
+      placeholder="Ingrese su correo electrónico"
+      required
+    /><br /><br />
+
+    <label for="dirección">Dirección:</label>
+    <input
+      type="text"
+      id="dirección"
+      placeholder="Ingrese su dirección"
+      required
+    /><br /><br />
+
+    <label for="contraseña">Contraseña:</label>
+    <input
+      type="password"
+      id="contraseña"
+      placeholder="Ingrese su contraseña"
+      required
+    /><br /><br />
+
+    <label for="contraseña">Confirme su contraseña:</label>
+    <input
+      type="password"
+      id="contraseña"
+      placeholder="Ingrese su contraseña"
+      required
+    /><br /><br />
+
+    <label for="teléfono">Teléfono:</label>
+    <input
+      type="text"
+      id="teléfono"
+      placeholder="Ingrese su N° de teléfono"
+      required
+    /><br /><br />
+
+    <label for="texto">Observaciones</label><br />
+    <textarea id="texto" cols="25" rows="5"></textarea><br /><br />
+
+    <label for="términos">Acepto los Términos y condiciones</label>
+    <input type="checkbox" id="términos" required /><br /><br />
+
+    <input type="submit" value="Enviar formulario" />
+  </body>
+</html>
